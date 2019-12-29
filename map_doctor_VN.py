@@ -27,17 +27,16 @@ from bokeh.io.doc import curdoc
 from bokeh.models import Slider, HoverTool, Select
 from bokeh.layouts import widgetbox, row, column
 
-uploaded = files.upload()
-
 """Đầu tiên ta đọc dữ liệu thường vào DataFrame. Đổi tên cột cho dễ thao tác"""
 
-df = pd.read_csv('E11.14.csv', skiprows=1, na_values="..")
+df = pd.read_csv('https://raw.githubusercontent.com/teddyorkie/python_datascience/master/data/E11.14.csv', 
+                 skiprows=1, na_values="..")
 df = df.rename(columns={"Cities, Provinces":"Province", "Non public":"Private"})
 df.sample(5)
 
 """Đọc dữ liệu geojson vào một geopandas dataframe. Đổi tên cột, và vứt bớt những thứ không cần thiết. Lưu ý, tên cột muốn join với dữ liệu thường phải trùng với tên cột bên trên."""
 
-vn_df = gdp.read_file('VN_provinces.geojson')
+vn_df = gdp.read_file('https://raw.githubusercontent.com/teddyorkie/python_datascience/master/data/VN_provinces.geojson')
 vn_df = vn_df.rename(columns={'NAME_1':'Name', 'VARNAME_1':'Province'}).set_geometry('geometry')
 col_to_drop = list(range(4)) + list(range(6,11))
 vn_df.drop(vn_df.columns[col_to_drop], axis=1, inplace=True)
