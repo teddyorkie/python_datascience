@@ -1,0 +1,23 @@
+﻿"Volume of main cargos across sea-port managed by central level by Kind of goods and sea-port and Year"
+
+"Kind of goods and sea-port","2012","2013","2014","2015","2016","2017"
+"TOTAL",67045.8,69284.2,73410.3,75674.6,94164.2,105208.0
+"Goods for exportation",22474.0,23857.7,24864.3,20960.2,24019.7,32322.0
+"Goods for importation",20820.3,21866.8,20299.0,21480.6,27247.9,30629.3
+"Domestic goods",23751.5,23559.7,28247.0,33233.8,42896.6,42256.7
+" Hai Phong Harbour",31016.0,29356.0,34210.7,34942.0,36299.0,38563.0
+" Hai Phong Harbour- Export",8977.0,7443.0,8745.9,9063.0,8218.0,10950.0
+" Sai Gon Harbour",11292.4,14672.1,15001.0,16061.8,25524.3,32671.1
+" Sai Gon Harbour- Export",1369.6,3018.2,4826.0,3384.5,10580.0,16293.2
+" Quang Ninh Harbour",7196.5,3144.0,3627.0,4158.8,8453.0,8097.0
+" Quang Ninh Harbour- Export",2903.3,2318.0,2674.0,3362.0,200.0,..
+" Nghe An Harbour",1959.0,2380.0,2646.6,3075.0,3135.0,3495.0
+" Nghe An Harbour- Export",997.0,1155.0,1122.0,1246.0,1029.0,1210.0
+" Da Nang Harbour",3396.0,5010.0,6022.0,6401.0,7255.0,8056.0
+" Da Nang Harbour- Export",1988.0,2361.0,2286.0,2519.0,2750.0,3095.0
+" Quy Nhon Harbour",5716.0,6256.0,6256.0,..,..,..
+" Quy Nhon Harbour- Export",3482.0,4187.0,4187.0,..,..,..
+" Nha Trang Harbour",2544.5,1766.4,3283.0,2101.0,1940.0,1632.0
+" Nha Trang Harbour- Export",1457.0,1218.4,1901.0,646.0,744.0,1002.5
+" Can Tho Harbour",1969.0,2407.0,2364.0,2934.0,2076.0,2210.0
+" Can Tho Harbour- Export",53.0,999.0,114.0,94.8,291.0,317.0
